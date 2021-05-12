@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "cargue-archivos-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cargueArchivos/CargueArchivosWebPart.js",
+          "manifest": "./src/webparts/cargueArchivos/CargueArchivosWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CargueArchivosWebPartStrings": "lib/webparts/cargueArchivos/loc/{locale}.js"
+  }
+}
